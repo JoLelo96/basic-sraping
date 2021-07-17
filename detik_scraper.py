@@ -9,5 +9,5 @@ judul = popular_area.findAll(attrs={'class':'media__title'})
 gambar = popular_area.findAll(attrs={'class':'media__image'})
 
 for g in gambar:
-    print(g.find('a').find('img')['title'])
+    print(g.find('a').find('img')["title"])
 #print(judul)
